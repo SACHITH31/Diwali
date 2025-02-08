@@ -1,0 +1,81 @@
+main {
+    display: flex;
+}
+.diwaliRotatorContainer {
+    margin-top: 50px;
+    width: 20%;
+}
+.diwali {
+    padding: 10px;
+    animation: rotate 20s linear infinite;
+    margin-left: -320px;
+    height: 550px;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+}
+.mainContentContainer {
+    margin-top: 10px;
+    width: 70%;
+}
+.happyDiwaliContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.happyDiwali {
+    font-size: 65px;
+    text-align: center;
+}
+.content {
+    margin-top: -5px;
+}
+.content, .letsCelebrate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.letsCelebrate {
+    margin-top: -20px;
+}
+.another {
+    width: 10%;
+    padding-left: 10px;
+}
+.deep {
+    margin-top: -10px;
+    padding-left: 10px;
+}
+.burstACracker {
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    width: 200px;
+    height: 45px;
+}
+.getBlessings {
+    width: 200px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.another .clipPathImage {
+    padding-left: 30px;
+}
+.honeyImage {
+    height: 200px;
+}
